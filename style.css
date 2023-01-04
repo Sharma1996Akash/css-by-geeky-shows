@@ -1,0 +1,21 @@
+.flex-container {
+  background-color: tomato;
+  display: flex;
+  flex-direction: row;
+  /* flex-direction: row-reverse; */
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+   /* justify-content: center;  */
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+   justify-content: space-between; 
+   height :400px;
+   align-items: center;
+}
+.flex-child {
+  background-color: wheat;
+  margin: 20px;
+  padding: 20px;
+  width: 100px;
+  text-align: center;
+}
